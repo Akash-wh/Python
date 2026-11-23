@@ -73,3 +73,4 @@ if ( a % 7 == 0):
     print ("The number is the multiple of 7.")
 else:
     print ("The number is not the multiple of 7.")
+
