@@ -23,6 +23,25 @@ elif ( 70 > Marks and Marks >= 60):
 else:
     print ("Pointed Pass")
 
+
+#nesting 
+
+marks = float(input("Enter your marks: "))  
+
+if ( marks >= 90):
+
+    if (marks >= 95):
+        print ("Grade A+")
+    else :
+        print ("Grade A")
+elif ( marks >= 80 and marks < 90):
+    if (marks >= 85):
+        print ("Grade B+")
+    else :
+        print ("Grade B")
+else:
+    print ("Grade C")
+
 # WAP to input a number and check if it is even or odd.
 
 
