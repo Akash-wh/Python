@@ -1,3 +1,4 @@
+#While Loop
 #WAP to write nos. 1 to 100
 
 i = 1
@@ -52,4 +53,62 @@ print(sq)
 #WAP to search the no. x from the following tuple:
 #(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
 
+search_list = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100) 
+i = 0
+x = int(input("Search your no.:"))
 
+while i < len(search_list):
+    if (search_list[i] == x):
+        print ("Value found at index:", i)
+        break
+    else:
+        print("finding....")
+    i += 1
+
+
+# For Loop
+
+#WAP to print the following list elements using for loop
+#  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100] 
+
+sq_list=[1,2,3,4,5,6,7,8,9,10]
+
+p_list = []
+
+for i in sq_list:
+    if (i <= 10):
+        i = i*i
+        p_list.append(i)
+    i+= 1
+print("List Printed:", p_list)
+
+#WAP to search the number x in the following tuple using for loop
+#(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+x= int(input("Search the number:"))
+
+idx = 0
+
+for i in tup:
+
+    if(i == x):
+        print("no. find at index :", idx)
+    idx+=1
+
+
+
+#RANGE Function
+
+#WAP to print 1 to 100 using for & range
+
+
+list=[]
+
+for i in range ( 1, 101):
+    list.append(i)
+
+print(list)
+
+        
