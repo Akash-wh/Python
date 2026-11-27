@@ -124,4 +124,17 @@ print("Reverse Count list", rev_list)
 
 
         
-#WAP to print the multiplication 
+#WAP to print the multiplication of n
+
+n = int(input("Enter the no.:"))
+
+table=[]
+
+for i in range (1, 11):
+
+    table.append(i*n)
+
+    i+= 1
+
+print("TABLE", table)
+
