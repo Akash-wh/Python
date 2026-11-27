@@ -111,4 +111,17 @@ for i in range ( 1, 101):
 
 print(list)
 
+
+#WAP to print 100 to 1 using for & range 
+
+rev_list = []
+
+for i in range (100, 0, -1):
+
+    rev_list.append(i)
+
+print("Reverse Count list", rev_list)
+
+
         
+#WAP to print the multiplication 
